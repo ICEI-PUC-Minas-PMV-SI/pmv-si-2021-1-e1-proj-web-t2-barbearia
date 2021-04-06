@@ -1,6 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O desenvolvimento de novas tecnologias transformou negócios de diferentes tipos e portes. Não se trata apenas de facilidade e agilidade, mas também de sobrevivência. Em um ambiente altamente competitivo, as empresas investem cada vez mais em comunicação, experiência do cliente, produtividade e qualidade de seus produtos. Este cenário não é diferente no setor de barbearia e as novas ferramentas podem ajudar muito nesse processo de transformação e adaptação digital.
+
+Além disso, conforme Barbosa (2020), os hábitos de consumo mudaram, o ambiente digital é, para muitos usuários, o principal meio de consumo. Toda a facilidade e agilidade que um sistema de comunicação traz para a relação entre as organizações e consumidores é positivo para fidelização e satisfação do cliente.
+
+Desta forma, dentro do contexto da transformação digital, especialmente em tempos de pandemia, um sistema de agendamento para barbearias é essencial para a inclusão digital destes estabelecimentos, melhorando a experiência do usuário e otimizando a gestão do atendimento. Facilita o acesso do cliente a agenda do barbeiro ao passo de que garante a barbearia controle de lotação e organização de serviços oferecidos.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
