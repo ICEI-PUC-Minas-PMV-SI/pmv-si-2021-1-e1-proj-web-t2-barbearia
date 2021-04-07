@@ -38,7 +38,7 @@ Assim, a automação de serviços, que é basicamente a implementação de recur
 
 ## Público-Alvo
 
-Pessoas de gênero masculino que utlizam os variados serviços oferecidos por um barbeiro, entretanto pode haver uma utilização maior entre o gênero masculino mais jovem, pois são eles que geralmente procuram por inovações na área tecnológica, sempre em busca de aplicações que possam ser integradas ao seu uso rotineiro, seja no computador ou celulares e etc. 
+Pessoas de gênero masculino que utilizam os variados serviços oferecidos por um barbeiro, entretanto pode haver uma utilização maior entre o gênero masculino mais jovem, pois são eles que geralmente procuram por inovações na área tecnológica, sempre em busca de aplicações que possam ser integradas ao seu uso rotineiro, seja no computador ou celulares e etc. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
