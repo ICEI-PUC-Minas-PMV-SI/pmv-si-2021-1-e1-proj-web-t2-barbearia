@@ -27,11 +27,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
-## Justificativa
+# Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Nesse período de pandemia, as restrições de circulação com o fechamento de estabelecimentos comerciais tem obrigado os donos de pequenos negócios a serem criativos para driblar dificuldades desse período. A adoção da tecnologia na automatização de processos outrora executados manualmente pode servir de apoio aos comerciantes na hora ganhar financeiramente e garantir a sobrevivência de seu negócio, ainda mais se levarmos em conta que pelo menos 43% dos negócios ainda fazem a gestão financeira em cadernos ou folhas de papel (TECNOLOGIA, 2021). 
+Assim, a automação de serviços, que é basicamente a implementação de recursos tecnológicos em um determinado serviço, pode se provar fundamental na manutenção de um negócio, provendo ao empreendedor benefícios tais como a redução de tarefas repetitivas, a padronização de serviços e a redução de gastos (COMO, 2020).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
