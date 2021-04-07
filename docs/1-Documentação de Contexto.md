@@ -25,8 +25,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 # Justificativa
 
-Nesse período de pandemia, as restrições de circulação com o fechamento de estabelecimentos comerciais tem obrigado os donos de pequenos negócios a serem criativos para driblar dificuldades desse período. A adoção da tecnologia na automatização de processos outrora executados manualmente pode servir de apoio aos comerciantes na hora ganhar financeiramente e garantir a sobrevivência de seu negócio, ainda mais se levarmos em conta que pelo menos 43% dos negócios ainda fazem a gestão financeira em cadernos ou folhas de papel (TECNOLOGIA, 2021). 
-Assim, a automação de serviços, que é basicamente a implementação de recursos tecnológicos em um determinado serviço, pode se provar fundamental na manutenção de um negócio, provendo ao empreendedor benefícios tais como a redução de tarefas repetitivas, a padronização de serviços e a redução de gastos (COMO, 2020).
+Nesse período de pandemia, as restrições de circulação com o fechamento de estabelecimentos comerciais tem obrigado os donos de pequenos negócios a serem criativos para driblar dificuldades desse período. A adoção da tecnologia na automatização de processos outrora executados manualmente pode servir de apoio aos comerciantes na hora ganhar financeiramente e garantir a sobrevivência de seu negócio, ainda mais se levarmos em conta que pelo menos 43% dos negócios ainda fazem a gestão financeira em cadernos ou folhas de papel (ECONOMIASC, 2021). 
+
+Assim, a automação de serviços, que é basicamente a implementação de recursos tecnológicos em um determinado serviço, pode se provar fundamental na manutenção de um negócio, provendo ao empreendedor benefícios tais como a redução de tarefas repetitivas, a padronização de serviços e a redução de gastos (GERENCIANET, 2020).
 
 
 > **Links Úteis**:
