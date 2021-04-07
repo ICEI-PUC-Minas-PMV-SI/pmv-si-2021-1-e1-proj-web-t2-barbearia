@@ -17,7 +17,9 @@ Dado o exposto, o problema a ser resolvido por meio desta aplicação web, é a 
 ## Objetivos
 
 O principal objetivo dessa aplicação é gerenciar os horários para o atendimento em uma barbearia, sendo possível marcar o horário para cada cliente e evitar que fique muita gente no local esperando. 
-•	Será possível a interação entre o barbeiro com o cliente, em relação ao horário marcado.
+
+•	Será possível a interação entre o barbeiro com o cliente, em relação ao hoarário marcado.
+
 •	Terá um canal privado para que ambos consigam entrar em contato caso seja necessário.
 
  
