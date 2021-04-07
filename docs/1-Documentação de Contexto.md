@@ -7,11 +7,7 @@ Além disso, conforme Barbosa (2020), os hábitos de consumo mudaram, o ambiente
 Desta forma, dentro do contexto da transformação digital, especialmente em tempos de pandemia, um sistema de agendamento para barbearias é essencial para a inclusão digital destes estabelecimentos, melhorando a experiência do usuário e otimizando a gestão do atendimento. Facilita o acesso do cliente a agenda do barbeiro ao passo de que garante a barbearia controle de lotação e organização de serviços oferecidos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Dado o exposto, o problema a ser resolvido por meio desta aplicação web, é a não inserção no mundo digitalizado do setor de barbearias, problema esse que ficou ainda mais evidente com as restrições impostas pela pandemia do Covid-19.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
