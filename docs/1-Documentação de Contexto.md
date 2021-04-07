@@ -16,9 +16,10 @@ Dado o exposto, o problema a ser resolvido por meio desta aplicação web, é a 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O principal objetivo dessa aplicação é gerenciar os horários para o atendimento em uma barbearia, sendo possível marcar o horário para cada cliente e evitar que fique muita gente no local esperando. 
+•	Será possível a interação entre o barbeiro com o cliente, em relação ao horário marcado.
+•	Terá um canal privado para que ambos consigam entrar em contato caso seja necessário.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
