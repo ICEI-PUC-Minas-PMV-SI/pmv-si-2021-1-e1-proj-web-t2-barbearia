@@ -9,10 +9,7 @@ Desta forma, dentro do contexto da transformação digital, especialmente em tem
 ## Problemas
 Dado o exposto, os problemas a serem resolvido por meio desta aplicação web, que se tornaram ainda mais evidentes após as restrições impostas pela pandemia do Covid-19, são a ausência de uma barbearia no mundo digitalizado e as aglomerações em filas de barbearia que além de trazer risco aos clientes geram uma perca de tempo desnecessária o que pode ser resolvido por meio da tecnologia, trazendo agilidade e praticidade no processo.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 
 ## Objetivos
 
