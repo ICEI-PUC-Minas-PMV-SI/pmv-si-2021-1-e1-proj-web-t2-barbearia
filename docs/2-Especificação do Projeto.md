@@ -11,7 +11,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 1. Ricardo Nepomuceno, homem de 26 anos, morador de um bairro classe média de Belo Horizonte. Técnico em administração, barbeiro e proprietário de uma barbearia, cuida de seu negócio sozinho e por isso muitas vezes seu tempo é extremamente curto. Ricardo gosta de manter as informações da barbearia sempre atualizadas, o tempo tem sido seu maior inimigo. Tem como meta ter um estabelecimento maior para atender mais pessoas ao mesmo tempo, com um ou mais dois barbeiros como colaboradores. Não é muito consumista, porém quando precisa de algo não se importa em pagar um pouco mais em algo que seja de qualidade. Ele é extrovertido e adora usar as redes sociais e estar com a família e amigos em seu tempo livre.
-2. .  Renato Lopes, 27 anos, é recém-formado em direito e já trabalha em um escritório fora da sua cidade. Futuramente ele pensa em montar o seu próprio escritório mais próximo de sua casa, já que gasta muito tempo se locomovendo até o seu local de trabalho. Como no meio da semana ele está trabalhando fazendo com que ele fique bastante cansado e quando chega aos finais de semana ele fica em sua casa descansando do trabalho.
+2. .  Lucas Pereira, 20 anos, é esforçado, solteiro e trabalha em uma grande empresa de programação.
+Ele é um jovem bem focado em suas atividades profissionais, sempre está inovando suas ideias e conhecimentos, trabalha durante a grande parte do dia.
+Em seu tempo livre, gosta de encontrar com seus amigos para beber e colocar a conversa em dia.
+Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia está trabalhando ou estudando.
+
 
 3.  Renato Lopes, 27 anos, é recém-formado em direito e já trabalha em um escritório fora da sua cidade. Futuramente ele pensa em montar o seu próprio escritório mais próximo de sua casa, já que gasta muito tempo se locomovendo até o seu local de trabalho. Como no meio da semana ele está trabalhando fazendo com que ele fique bastante cansado e quando chega aos finais de semana ele fica em sua casa descansando do trabalho.
 
