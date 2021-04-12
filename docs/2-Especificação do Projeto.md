@@ -10,6 +10,8 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
+1. Ricardo Nepomuceno, homem de 26 anos, morador de um bairro classe média de Belo Horizonte. Técnico em administração, barbeiro e proprietário de uma barbearia, cuida de seu negócio sozinho e por isso muitas vezes seu tempo é extremamente curto. Ricardo gosta de manter as informações da barbearia sempre atualizadas, o tempo tem sido seu maior inimigo. Tem como meta ter um estabelecimento maior para atender mais pessoas ao mesmo tempo, com um ou mais dois barbeiros como colaboradores. Não é muito consumista, porém quando precisa de algo não se importa em pagar um pouco mais em algo que seja de qualidade. Ele é extrovertido e adora usar as redes sociais e estar com a família e amigos em seu tempo livre.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
