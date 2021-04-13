@@ -61,7 +61,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Gilvanildo Carvalho |Acessar uma agenda com horários disponíveis                                    |Planejar melhor as atividades do dia                       |
 |Gilvanildo Carvalho |Verificar o dia e hora de menor movimento                                      |Evitar contato com outras pessoas e se proteger durante a pandemia|
 |Luan Neri           |Agendar horário do serviço, a qualquer momento                                 |Não perder tempo ao ligar para o estabelecimento ou ir até o local|
-|Ricarod Nepomuceno  |Agendar horários para atender os clientes de forma mais automatizada           |Diminuir perca de tempo atendendo clientes pelo telefone   |
+|Ricardo Nepomuceno  |Agendar horários para atender os clientes de forma mais automatizada           |Diminuir perca de tempo atendendo clientes pelo telefone   |
 |Luís Alves          |Encontrar uma barbearia que atenda por agendamento                             |Evitar  aglomerações                                       |                           
                       
 
