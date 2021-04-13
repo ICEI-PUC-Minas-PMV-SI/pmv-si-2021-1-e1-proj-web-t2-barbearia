@@ -49,6 +49,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Sérgio              |Contatar clientes e funcionários para monitorar a ordem de antendimento  |Coordenar os atendimentos entre diferentes funcionários| 
 |Antônio             |Inserir recursos tecnológicos na administração do salão                  |Ser mais competitivo no mercado                        |
 |Sérgio              |Melhorar a comunicação com os clientes                                   |Manter a clientela fidelizada                          |
+|Fernando Ribeiro    |Poder agendar grande parte dos serviços que utliza no seu cotidiano      |ter um controle maior do seu tempo livre               |
+                      
 
 | EU COMO ... `PERSONA`| QUERO / PRECISO... `FUNCIONALIDADE ` | PARA... `MOTIVO / VALOR`                  |
 |  ----------------------|---------------------------------|---------------------------------------------|
