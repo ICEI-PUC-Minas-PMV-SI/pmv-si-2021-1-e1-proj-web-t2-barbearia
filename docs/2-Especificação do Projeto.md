@@ -19,6 +19,10 @@ Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia 
 
 3.  Renato Lopes, 27 anos, é recém-formado em direito e já trabalha em um escritório fora da sua cidade. Futuramente ele pensa em montar o seu próprio escritório mais próximo de sua casa, já que gasta muito tempo se locomovendo até o seu local de trabalho. Como no meio da semana ele está trabalhando fazendo com que ele fique bastante cansado e quando chega aos finais de semana ele fica em sua casa descansando do trabalho.
 
+4. Antônio tem 48 anos e é cabeleireiro há 20. É dono do próprio negócio há 13 anos, desde que resolveu abrir o seu salão. Como proprietário de salão tem agenda agitada: tem que cuidar da limpeza e organização do local, manter o equipamento de trabalho adequado para dar conta do atendimento aos clientes e satisfazer a clientela o máximo possível. Extremamente sociável e com muita experiência em cortar cabelo, Antônio tem uma lista de clientes fieis e desempenha um importante papel na sua comunidade, mantendo uma ampla rede de contatos entre os moradores do bairro conde trabalha. Com o surgimento da pandemia do coronavírus, Antônio teve de aprender a lidar com novos desafios: manter as condições higiênicas ideais, num contexto de perda de clientela e restrição ao funcionamento de estabelecimentos comerciais.
+
+5. Sérgio tem 53 anos e é cabeleireiro há 32. Entrou no ramo por influência do pai, barbeiro experiente que por muito tempo comandou uma barbearia na região Oeste de Belo Horizonte. Atualmente Sérgio tem um salão próprio, onde comanda o trabalho de outros quatro funcionários, entre eles seu irmão e o filho mais velho. O salão funciona de acordo com a agenda de cada um: cada cliente interage com seu barbeiro de preferência (seja pessoal ou virtualmente) e marca horário dependendo das cadeiras ociosas (pode-se atender até quatro clientes ao mesmo tempo). A restrição de funcionamento imposta pelas autoridades sanitárias no combate ao coronavírus impôs que Sérgio sugerisse aos seus funcionários organizar um cronograma de funcionamento no salão, em que apenas um cliente fosse atendido por vez, com tempo de 10 minutos entre um atendimento e outro para a adequada higienização do local.    
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -34,6 +38,12 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                     |
+|--------------------|-----------------------------------------------------------------------|--------------------------------------------|
+|Antônio             | Organizar a agenda de atendimento de maneira mais eficiente           |Programar melhor o tempo de cada atendimento|
+|                    | Inserir recursos tecnológicos na administração do salão               |Ser mais competitivo no mercado             |
+
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
