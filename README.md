@@ -1,19 +1,23 @@
-# TÍTULO DO PROJETO
+# SISTEMA DE AGENDAMENTO PARA BARBEARIA
 
-`CURSO`
+`SISTEMAS DE INFORMAÇÃO`
 
-`DISCIPLINA`
+`PROJETO: APLICAÇÕES WEB`
 
-`SEMESTRE`
+`1º SEMESTRE DE 2021`
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+- Eduardo da Silva Bento 
+- Gabriel Martins Santana
+- Marcio Alves de Oliveira Junior
+- Mateus de Oliveira e Silveira
+- Sânzio de Oliveira Carmo
+- Vinicius de Oliveira Inocêncio
 
 ## Professor
 
-- Mestre Yoda
+- Kleber Jacques Ferreira de Souza
 
 # Documentação
 
