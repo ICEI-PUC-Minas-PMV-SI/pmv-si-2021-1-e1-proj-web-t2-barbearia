@@ -33,6 +33,8 @@ Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia 
 
 10. Luan Neri tem 28 anos, é formado em administração há 2 anos. Trabalha em uma concessionária de carros novos e usados como assistente no setor financeiro. Está em busca de um curso de especialização na área de gestão financeira, onde pretende seguir carreira. É recém casado e junta dinheiro junto com sua parceira para comprar imóvel próprio.
 
+11. Luís Alves, 18 anos, Jovem Aprendiz, recém formado no ensino médio, mora com seus avós e gosta de manter a aparência em dia, roupas da moda e cabelo “na régua”. Normalmente cortava cabelo aos sábados por ser o dia que ele tinha mais tempo para aguardar na fila da barbearia de um conhecido de seu bairro, porém com as restrições impostas pela pandemia teve que trocar para uma barbearia que atende apenas por agendamento pois tem medo do risco que qualquer aglomeração pode trazer para ele e sua família. Luís sonha em se formar como enfermeiro para poder cuidar de seus avós ainda melhor. 
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
