@@ -25,6 +25,8 @@ Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia 
 
 6. Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros. 
 
+7. Fernando Ribeiro tem 26 anos, solteiro e é policial. Fernando optou por seguir uma tradição de sempre ter policiais na família, desde seu bisavô,  posteriormente seu avó, seu pai e agora ele. O serviço de Fernando além de ser de risco, exige muito de seu tempo. Nas horas livres ele treina Jiu-Jitsu e as vezes se reune com seus amigos, seja em churrascos ou no bar.  Como Fernando não dispõe de muito tempo, ele gosta de ter controle dos seus horários e até utiliza um aplicativo em seu celular que o permite fazer esse gerenciamento, para que assim ele possa aproveitar ao máximo as horas livres.
+
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
