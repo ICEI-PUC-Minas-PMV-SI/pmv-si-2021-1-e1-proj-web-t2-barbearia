@@ -39,11 +39,12 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                     |
-|--------------------|-----------------------------------------------------------------------|--------------------------------------------|
-|Antônio             | Organizar a agenda de atendimento de maneira mais eficiente           |Programar melhor o tempo de cada atendimento|
-|                    | Inserir recursos tecnológicos na administração do salão               |Ser mais competitivo no mercado             |
-
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                      |PARA ... `MOTIVO/VALOR`                                |
+|--------------------|-----------------------------------------------------------------------  |-------------------------------------------------------|
+|Antônio             |Organizar a agenda de atendimento de maneira mais eficiente              |Programar melhor o tempo de cada atendimento           |
+|Sérgio              |Contatar clientes e funcionários para monitorar a ordem de antendimento  |Coordenar os atendimentos entre diferentes funcionários| 
+|Antônio             |Inserir recursos tecnológicos na administração do salão                  |Ser mais competitivo no mercado                        |
+|Sérgio              |Melhorar a comunicação com os clientes                                   |Manter a clientela fidelizada                          |
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
