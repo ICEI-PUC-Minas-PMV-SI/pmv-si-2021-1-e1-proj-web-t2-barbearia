@@ -29,6 +29,11 @@ Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia 
 
 8. Paulo Henrique tem 23 anos, solteiro, nas horas livres gosta de jogar futebol e videogame com seus amigos. Em 2018 concluiu seu curso profissionalizante de barbeiro. No mesmo ano, graças a ajuda de seus pais, conseguiu alugar um espaço para montar seu salão, no bairro em que mora. O começo do trabalho de Paulo Henrique foi tranquilo, pois ele ainda não tinha clientes fixos, embora conhecesse muita gente em seu bairro, principalmente amigos da época da escola. Paulo Henrique percebeu que a demanda do seu negócio aumentou bastante depois que ele melhorou o visual da barbearia, adicionando uma nova pintura, som ambiente, Wi-fi, mesa de sinuca e um pequeno frigobar com água, suco e refrigerante. Porém com a chegada da pandemia, ele está tendo um problema com a aglomeração de clientes, mesmo após ele ter conseguido contratar uma pessoa para ajudar com os serviços,  ainda ficam muitos clientes dentro da barbearia esperando atendimento, principalmente nos finais de semana.
 
+9. Gilvanildo Carvalho tem 52 anos, é contador e possui um escritório próprio. É casado há 22 anos e estuda Teologia devido ao seu desejo de aprofundar seus conhecimentos sobre sua crença, está muito envolvido com suas atividades religiosas.
+
+10. Luan Neri tem 28 anos, é formado em administração há 2 anos. Trabalha em uma concessionária de carros novos e usados como assistente no setor financeiro. Está em busca de um curso de especialização na área de gestão financeira, onde pretende seguir carreira. É recém casado e junta dinheiro junto com sua parceira para comprar imóvel próprio.
+
+
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
@@ -51,6 +56,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Sérgio              |Melhorar a comunicação com os clientes                                         |Manter a clientela fidelizada                              |
 |Fernando Ribeiro    |Poder agendar grande parte dos serviços que utliza no seu cotidiano            |Ter um controle maior do seu tempo livre                   |
 |Paulo Henrique      |Ter controle da quantidade de clientes a ser atendida e horário de atendimento |Evitar filas de espera para não aglomerar clientes no salão|
+|Gilvanildo Carvalho |Acessar uma agenda com horários disponíveis                                    |Planejar melhor as atividades do dia                       |
+|Gilvanildo Carvalho |Verificar o dia e hora de menor movimento                                      |Evitar contato com outras pessoas e se proteger durante a pandemia|
+|Luan Neri           |Agendar horário do serviço, a qualquer momento                                 |Não perder tempo ao ligar para o estabelecimento ou ir até o local|
                       
 
 | EU COMO ... `PERSONA`| QUERO / PRECISO... `FUNCIONALIDADE ` | PARA... `MOTIVO / VALOR`                  |
