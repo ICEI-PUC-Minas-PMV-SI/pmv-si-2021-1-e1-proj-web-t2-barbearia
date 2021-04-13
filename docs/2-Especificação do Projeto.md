@@ -43,14 +43,14 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                      |PARA ... `MOTIVO/VALOR`                                    |
-|--------------------|-----------------------------------------------------------------------  |-----------------------------------------------------------|
-|Antônio             |Organizar a agenda de atendimento de maneira mais eficiente              |Programar melhor o tempo de cada atendimento               |
-|Sérgio              |Contatar clientes e funcionários para monitorar a ordem de antendimento  |Coordenar os atendimentos entre diferentes funcionários    |    
-|Antônio             |Inserir recursos tecnológicos na administração do salão                  |Ser mais competitivo no mercado                            |
-|Sérgio              |Melhorar a comunicação com os clientes                                   |Manter a clientela fidelizada                              |
-|Fernando Ribeiro    |Poder agendar grande parte dos serviços que utliza no seu cotidiano      |Ter um controle maior do seu tempo livre                   |
-|Paulo Henrique      |Ter controle de quantidade e horários dos clientes                       |Evitar filas de espera para não aglomerar clientes no salão|
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                            |PARA ... `MOTIVO/VALOR`                                    |
+|--------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------|
+|Antônio             |Organizar a agenda de atendimento de maneira mais eficiente                    |Programar melhor o tempo de cada atendimento               |
+|Sérgio              |Contatar clientes e funcionários para monitorar a ordem de antendimento        |Coordenar os atendimentos entre diferentes funcionários    |    
+|Antônio             |Inserir recursos tecnológicos na administração do salão                        |Ser mais competitivo no mercado                            |
+|Sérgio              |Melhorar a comunicação com os clientes                                         |Manter a clientela fidelizada                              |
+|Fernando Ribeiro    |Poder agendar grande parte dos serviços que utliza no seu cotidiano            |Ter um controle maior do seu tempo livre                   |
+|Paulo Henrique      |Ter controle da quantidade de clientes a ser atendida e horário de atendimento |Evitar filas de espera para não aglomerar clientes no salão|
                       
 
 | EU COMO ... `PERSONA`| QUERO / PRECISO... `FUNCIONALIDADE ` | PARA... `MOTIVO / VALOR`                  |
