@@ -50,6 +50,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Antônio             |Inserir recursos tecnológicos na administração do salão                  |Ser mais competitivo no mercado                        |
 |Sérgio              |Melhorar a comunicação com os clientes                                   |Manter a clientela fidelizada                          |
 
+| EU COMO ... `PERSONA`| QUERO / PRECISO... `FUNCIONALIDADE ` | PARA... `MOTIVO / VALOR`                  |
+|  ----------------------|---------------------------------|---------------------------------------------|
+|Lucas Pereira | Acessar os melhores horários de funcionamento da barbearia | Precisa planejar um horário que encaixe com o seu trabalho|
+| Renato Lopes | Acessar os horários  aos finais de semana com agilidade | Agendar um horário sem precisar sair de sua casa ou trabalho |
+
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
