@@ -62,18 +62,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Gilvanildo Carvalho |Verificar o dia e hora de menor movimento                                      |Evitar contato com outras pessoas e se proteger durante a pandemia|
 |Luan Neri           |Agendar horário do serviço, a qualquer momento                                 |Não perder tempo ao ligar para o estabelecimento ou ir até o local|
 |Ricardo Nepomuceno  |Agendar horários para atender os clientes de forma mais automatizada           |Diminuir perca de tempo atendendo clientes pelo telefone   |
-|Luís Alves          |Encontrar uma barbearia que atenda por agendamento                             |Evitar  aglomerações                                       |                           
-                      
-
-| EU COMO ... `PERSONA`| QUERO / PRECISO... `FUNCIONALIDADE ` | PARA... `MOTIVO / VALOR`                  |
-|  ----------------------|---------------------------------|---------------------------------------------|
+|Luís Alves          |Encontrar uma barbearia que atenda por agendamento                             |Evitar  aglomerações                                       |               
 |Lucas Pereira | Acessar os melhores horários de funcionamento da barbearia | Precisa planejar um horário que encaixe com o seu trabalho|
-| Renato Lopes | Acessar os horários  aos finais de semana com agilidade | Agendar um horário sem precisar sair de sua casa ou trabalho |
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Renato Lopes | Acessar os horários  aos finais de semana com agilidade | Agendar um horário sem precisar sair de sua casa ou trabalho |           
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
