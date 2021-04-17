@@ -13,7 +13,7 @@ Dado o exposto, os problemas a serem resolvido por meio desta aplicação web, q
 
 O objetivo geral deste trabalho é a criação de um sistema de agendamento de horários de serviços prestados por uma barbearia e que possibilite a marcação de horário pelo cliente direto da aplicação.
 
-Como objetivos específicos, podemos ressaltar;
+Como objetivos específicos, podemos ressaltar:
 
 - Colaborar na gestão de atendimento da barbearia;
 - Facilitar interação entre cliente e barbeiro referente a marcação de horários;
