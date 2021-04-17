@@ -9,11 +9,9 @@ Desta forma, dentro do contexto da transformação digital, especialmente em tem
 ## Problemas
 Dado o exposto, os problemas a serem resolvido por meio desta aplicação web, que se tornaram ainda mais evidentes após as restrições impostas pela pandemia do Covid-19, são a ausência de uma barbearia no mundo digitalizado e as aglomerações em filas de barbearia que além de trazer risco aos clientes geram uma perca de tempo desnecessária o que pode ser resolvido por meio da tecnologia, trazendo agilidade e praticidade no processo.
 
-
-
 ## Objetivos
 
-O objetivo geral  deste trabalho é a criação de  um sistema de agendamento de horários de serviços prestados por uma barbearia e que possibilite a marcação de horário  pelo cliente direto da aplicação.
+O objetivo geral deste trabalho é a criação de um sistema de agendamento de horários de serviços prestados por uma barbearia e que possibilite a marcação de horário pelo cliente direto da aplicação.
 
 Como objetivos específicos, podemos ressaltar;
 
