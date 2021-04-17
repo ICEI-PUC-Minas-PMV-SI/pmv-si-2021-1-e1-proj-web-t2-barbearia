@@ -13,15 +13,13 @@ Dado o exposto, os problemas a serem resolvido por meio desta aplicação web, q
 
 ## Objetivos
 
-O principal objetivo dessa aplicação é gerenciar os horários para o atendimento em uma barbearia, sendo possível marcar o horário para cada cliente e evitar que fique muita gente no local esperando. 
+O objetivo geral  deste trabalho é a criação de  um sistema de agendamento de horários de serviços prestados por uma barbearia e que possibilite a marcação de horário  pelo cliente direto da aplicação.
 
-•	Será possível a interação entre o barbeiro com o cliente, em relação ao horário marcado.
-
-•	Terá um canal privado para que ambos consigam entrar em contato caso seja necessário.
-
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar;
+-Colaborar na gestão de atendimento  da barbearia;
+-Facilitar na interação entre o cliente e o barbeiro referente  a marcação de horários;
+-Controlar o fluxo de clientes e evitar aglomerações no estabelecimento, especialmente durante a pandemia;
+-Integrar a barbearia ao meio digital;
 
 # Justificativa
 
