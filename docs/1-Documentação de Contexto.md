@@ -16,10 +16,11 @@ Dado o exposto, os problemas a serem resolvido por meio desta aplicação web, q
 O objetivo geral  deste trabalho é a criação de  um sistema de agendamento de horários de serviços prestados por uma barbearia e que possibilite a marcação de horário  pelo cliente direto da aplicação.
 
 Como objetivos específicos, podemos ressaltar;
--Colaborar na gestão de atendimento  da barbearia;
--Facilitar na interação entre o cliente e o barbeiro referente  a marcação de horários;
--Controlar o fluxo de clientes e evitar aglomerações no estabelecimento, especialmente durante a pandemia;
--Integrar a barbearia ao meio digital;
+
+- Colaborar na gestão de atendimento da barbearia;
+- Facilitar interação entre cliente e barbeiro referente a marcação de horários;
+- Controlar do fluxo de clientes e evitar aglomerações no estabelecimento, especialmente durante a pandemia;
+- Integrar a barbearia ao meio digital.
 
 # Justificativa
 
@@ -27,16 +28,6 @@ Nesse período de pandemia, as restrições de circulação com o fechamento de 
 
 Assim, a automação de serviços, que é basicamente a implementação de recursos tecnológicos em um determinado serviço, pode se provar fundamental na manutenção de um negócio, provendo ao empreendedor benefícios tais como a redução de tarefas repetitivas, a padronização de serviços e a redução de gastos (GERENCIANET, 2020).
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Pessoas de gênero masculino que utilizam os variados serviços oferecidos por um barbeiro, entretanto pode haver uma utilização maior entre o gênero masculino mais jovem, pois são eles que geralmente procuram por inovações na área tecnológica, sempre em busca de aplicações que possam ser integradas ao seu uso rotineiro, seja no computador ou celulares e etc. 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
