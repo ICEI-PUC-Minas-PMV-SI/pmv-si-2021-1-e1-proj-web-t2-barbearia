@@ -35,17 +35,6 @@ Sua maior dificuldade é a gestão do seu tempo, pois a grande parte do seu dia 
 
 11. Luís Alves, 18 anos, Jovem Aprendiz, recém formado no ensino médio, mora com seus avós e gosta de manter a aparência em dia, roupas da moda e cabelo “na régua”. Normalmente cortava cabelo aos sábados por ser o dia que ele tinha mais tempo para aguardar na fila da barbearia de um conhecido de seu bairro, porém com as restrições impostas pela pandemia teve que trocar para uma barbearia que atende apenas por agendamento pois tem medo do risco que qualquer aglomeração pode trazer para ele e sua família. Luís sonha em se formar como enfermeiro para poder cuidar de seus avós ainda melhor. 
 
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -67,13 +56,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Renato Lopes | Acessar os horários  aos finais de semana com agilidade | Agendar um horário sem precisar sair de sua casa ou trabalho |           
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
