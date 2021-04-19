@@ -60,12 +60,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 ### Requisitos Funcionais
 
 |ID       | Descrição do Requisito                  | Prioridade |
-|-------- |-----------------------------------------|----|
-| RF-06 | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
-| RF-07 | Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
-| RF-08 | Opção de gerar relatório de agendamentos | MÉDIA |
-| RF-09 | Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
-| RF-10 | Apresentar opção de reproduzir n TV/PC para exibir no salão |MÉDIA|
+|---------|-----------------------------------------|----|
+|RF-06| Opção de desmarcar o atendimento automaticamente | MÉDIA | 
+|RF-07| Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
+|RF-08| Opção de gerar relatório de agendamentos | MÉDIA |
+|RF-09| Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
+|RF-10| Apresentar opção de reproduzir n TV/PC para exibir no salão |MÉDIA|
 
 ### Requisitos não Funcionais
 
