@@ -74,6 +74,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-01| Por segurança / Criptografia no login e dados | MÉDIA | 
 |RNF-02| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-03| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
+|RNF-04| Criar uma interface de usuário de fácil compreensão e utilizaçãos |  MÉDIA |
 
 
 
@@ -85,6 +86,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o começo de julho   |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Desconhecimento dos integrantes do grupo sobre a linguagem e o ambiente de programação |
 
 
 
