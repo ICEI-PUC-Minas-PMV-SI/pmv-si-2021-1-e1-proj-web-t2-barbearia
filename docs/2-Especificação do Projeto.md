@@ -71,10 +71,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-01| Por segurança / Criptografia no login e dados | MÉDIA | 
 |RNF-02| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
 |RNF-03| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
-|RNF-04| Por segurança / Criptografia no login e dados | MÉDIA | 
+
 
 
 ## Restrições
