@@ -61,38 +61,21 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
 |RF-06| Opção de desmarcar o atendimento automaticamente | MÉDIA | 
 |RF-07| Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
-| RF-08 | Opção de gerar relatório de agendamentos | MÉDIA |
-|RF-09 |  Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
+|RF-08| Opção de gerar relatório de agendamentos | MÉDIA |
+|RF-09| Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
+|RF-10| Apresentar opção de reproduzir n TV/PC para exibir no salão |MÉDIA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
+|RNF-01| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-02| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-03| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
+|RNF-04| Por segurança / Criptografia no login e dados | MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
