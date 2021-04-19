@@ -59,8 +59,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Requisitos Funcionais
 
-|ID     | Descrição do Requisito  | Prioridade |
-|-------|-----------------------------------------|----|
+|ID      | Descrição do Requisito  | Prioridade |
+|--------|-----------------------------------------|----|
 | RF-06 | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
 | RF-07 | Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
 | RF-08 | Opção de gerar relatório de agendamentos | MÉDIA |
