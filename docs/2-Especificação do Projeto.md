@@ -76,7 +76,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -99,8 +100,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o começo de julho   |
 |02| Não pode ser desenvolvido um módulo de backend        |
+
+
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
