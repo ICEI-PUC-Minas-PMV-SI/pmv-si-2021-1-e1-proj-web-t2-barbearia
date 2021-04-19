@@ -68,6 +68,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-06| Opção de desmarcar o atendimento automaticamente | MÉDIA | 
+|RF-07| Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
