@@ -49,7 +49,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Paulo Henrique      |Ter controle da quantidade de clientes a ser atendida e horário de atendimento |Evitar filas de espera para não aglomerar clientes no salão|
 |Gilvanildo Carvalho |Acessar uma agenda com horários disponíveis                                    |Planejar melhor as atividades do dia                       |
 |Gilvanildo Carvalho |Verificar o dia e hora de menor movimento                                      |Evitar contato com outras pessoas e se proteger durante a pandemia|
-|Luan Neri           |Agendar horário do serviço, a qualquer momento                                 |Não perder tempo ao ligar para o estabelecimento ou ir até o local|
+|Luan Neri           |Agendar horário do serviço a qualquer momento                                 |Não perder tempo ao ligar para o estabelecimento ou ir até o local|
 |Ricardo Nepomuceno  |Agendar horários para atender os clientes de forma mais automatizada           |Diminuir perca de tempo atendendo clientes pelo telefone   |
 |Luís Alves          |Encontrar uma barbearia que atenda por agendamento                             |Evitar  aglomerações                                       |               
 |Lucas Pereira | Acessar os horários de funcionamento da barbearia | Precisa planejar um horário que encaixe com o seu trabalho |
@@ -63,14 +63,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |---------|-----------------------------------------|----|
 |RF-01    | Agendamento de horário de atendimento            | ALTA  | 
 |RF-02    | Possuir cadastro de clientes                     | ALTA  | 
-|RF-03    | Ter um controle de qualidade(Ótimo, Bom, Regular e Ruim) | ALTA  | 
+|RF-03    | Ter um controle de qualidade (Ótimo, Bom, Regular e Ruim) | ALTA  | 
 |RF-04    | Disponibilizar uma grade de horários para os clientes | ALTA  | 
 |RF-05    | Saber data da última visita do cliente           | MÉDIA | 
 |RF-06    | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
 |RF-07    | Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
 |RF-08    | Opção de gerar relatório de agendamentos | MÉDIA |
 |RF-09    | Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
-|RF-10    | Apresentar opção de reproduzir n TV/PC para exibir no salão |MÉDIA|
+|RF-10    | Apresentar opção de reproduzir na TV/PC para exibir no salão |MÉDIA|
 
 ### Requisitos não Funcionais
 
@@ -78,8 +78,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |-------|-------------------------|----|
 |RNF-01| Por segurança / Criptografia no login e dados | MÉDIA | 
 |RNF-02| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-03| A sistema da aplicação deve ser responsivo para ser utilizada em dipositios móvéis |  MÉDIA |
-|RNF-04| Criar uma interface de usuário de fácil compreensão e utilizaçãos |  MÉDIA |
+|RNF-03| O sistema da aplicação deve ser responsivo para ser utilizado em dipositivos móvéis |  MÉDIA |
+|RNF-04| Criar uma interface de usuário de fácil compreensão e utilização |  MÉDIA |
 
 
 
