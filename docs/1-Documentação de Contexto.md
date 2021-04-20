@@ -17,7 +17,7 @@ Como objetivos específicos, podemos ressaltar:
 
 - Colaborar na gestão de atendimento da barbearia;
 - Facilitar interação entre cliente e barbeiro referente a marcação de horários;
-- Controlar do fluxo de clientes e evitar aglomerações no estabelecimento, especialmente durante a pandemia;
+- Controlar o fluxo de clientes e evitar aglomerações no estabelecimento, especialmente durante a pandemia;
 - Integrar a barbearia ao meio digital.
 
 # Justificativa
