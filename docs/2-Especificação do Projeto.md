@@ -59,7 +59,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |---------|-----------------------------------------|----|
 |RF-01    | Agendamento de horário de atendimento            | ALTA  | 
 |RF-02    | Possuir cadastro de clientes                     | ALTA  | 
-|RF-03    | Ter um controle de qualidade (Ótimo, Bom, Regular e Ruim) | ALTA  | 
+|RF-03    | Registro de Feedback                             | ALTA  | 
 |RF-04    | Disponibilizar uma grade de horários para os clientes | ALTA  | 
 |RF-05    | Saber data da última visita do cliente           | MÉDIA | 
 |RF-06    | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
@@ -87,7 +87,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o começo de julho   |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Desconhecimento dos integrantes do grupo sobre a linguagem e o ambiente de programação |
+
 
 
 
