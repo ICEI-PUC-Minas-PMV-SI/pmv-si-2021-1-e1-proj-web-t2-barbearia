@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -63,7 +59,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |---------|-----------------------------------------|----|
 |RF-01    | Agendamento de horário de atendimento            | ALTA  | 
 |RF-02    | Possuir cadastro de clientes                     | ALTA  | 
-|RF-03    | Ter um controle de qualidade (Ótimo, Bom, Regular e Ruim) | ALTA  | 
+|RF-03    | Registro de Feedback                             | ALTA  | 
 |RF-04    | Disponibilizar uma grade de horários para os clientes | ALTA  | 
 |RF-05    | Saber data da última visita do cliente           | MÉDIA | 
 |RF-06    | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
@@ -91,7 +87,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o começo de julho   |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Desconhecimento dos integrantes do grupo sobre a linguagem e o ambiente de programação |
+
 
 
 
