@@ -57,25 +57,26 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID       | Descrição do Requisito                  | Prioridade |
 |---------|-----------------------------------------|----|
-|RF-01    | Agendamento de horário de atendimento            | ALTA  | 
-|RF-02    | Possuir cadastro de clientes                     | ALTA  | 
-|RF-03    | Registro de Feedback                             | ALTA  | 
+|RF-01    | Gestão do horário de atendimento            | ALTA  | 
+|RF-02    | Gestão de cadastro de clientes                     | ALTA  | 
+|RF-03    | Registrar Feedback                             | ALTA  | 
 |RF-04    | Disponibilizar uma grade de horários para os clientes | ALTA  | 
-|RF-05    | Saber data da última visita do cliente           | MÉDIA | 
-|RF-06    | Opção de desmarcar o atendimento automaticamente | MÉDIA | 
+|RF-05    | Armazenar histórico de atendimentos           | MÉDIA | 
+|RF-06    | Opção para desmarcar o atendimento | MÉDIA | 
 |RF-07    | Escolher o serviço que será realizado na barbearia (exemplo: corte, pintura, barba e etc.) | MÉDIA |
 |RF-08    | Opção de gerar relatório de agendamentos | MÉDIA |
 |RF-09    | Ter um programa de fidelidade para o cliente (exemplo: a cada 5 serviços utilizados o cliente ganha um desconto no próximo serviço) | MÉDIA |
 |RF-10    | Apresentar opção de reproduzir na TV/PC para exibir no salão |MÉDIA|
+|RF-11    | Cadastrar tipos de serviços prestados |MÉDIA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| Por segurança / Criptografia no login e dados | MÉDIA | 
-|RNF-02| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-03| O sistema da aplicação deve ser responsivo para ser utilizado em dipositivos móvéis |  MÉDIA |
-|RNF-04| Criar uma interface de usuário de fácil compreensão e utilização |  MÉDIA |
+|RNF-01| O sistema deverá garantir a segurança dos dados do usuário | MÉDIA | 
+|RNF-02| O sistema deverá apresentar boa usabilidade | MÉDIA |
+|RNF-03| O sistema deverá ser responsivo para ser utilizado em dipositivos móvéis | MÉDIA |
+|RNF-04| O sistema deverá processar requisições do usuário em no máximo 3s | BAIXA |
 
 
 
