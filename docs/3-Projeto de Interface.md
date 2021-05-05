@@ -1,3 +1,4 @@
+![Barbearia ](https://user-images.githubusercontent.com/79537802/117086929-67fd1800-ad24-11eb-9762-337fc30749ae.png)
 
 # Projeto de Interface
 
