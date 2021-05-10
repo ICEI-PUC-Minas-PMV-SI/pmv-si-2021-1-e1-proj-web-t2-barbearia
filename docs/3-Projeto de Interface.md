@@ -12,7 +12,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Navegação do cliente 
+Login
+![login (](https://user-images.githubusercontent.com/81272987/117737597-8d7c9c80-b1d0-11eb-9e67-f4dc0de5f14f.PNG)
+Página Inicial 
+![Pagina inicial](https://user-images.githubusercontent.com/81272987/117737683-be5cd180-b1d0-11eb-9504-28ba1cd24fcd.PNG)
+
+
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
