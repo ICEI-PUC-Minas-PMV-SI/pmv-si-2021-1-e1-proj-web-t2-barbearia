@@ -1,11 +1,5 @@
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## User Flow
 
 ![Barbearia  (2)](https://user-images.githubusercontent.com/79537802/117733742-720d9380-b1c8-11eb-82c7-c56bd3b4c6fc.png)
@@ -21,17 +15,3 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ![inicial barbeiro](https://user-images.githubusercontent.com/81272987/117739788-6f656b00-b1d5-11eb-96cc-843f614af150.PNG) ![agendamentos barbeiro](https://user-images.githubusercontent.com/81272987/117739815-7d1af080-b1d5-11eb-9eed-e54756d1e9f7.PNG)![serviços barbeiro](https://user-images.githubusercontent.com/81272987/117739858-97ed6500-b1d5-11eb-864a-e59d7a1676f6.PNG)![equipe barbeiro](https://user-images.githubusercontent.com/81272987/117739971-ce2ae480-b1d5-11eb-9ef2-ae068a9dda33.PNG)
 
-
-
-
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
