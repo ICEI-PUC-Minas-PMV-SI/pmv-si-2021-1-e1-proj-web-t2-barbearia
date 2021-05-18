@@ -2,7 +2,7 @@
 
 ## User Flow
 
-![Barbearia  (2)](https://user-images.githubusercontent.com/79537802/117733742-720d9380-b1c8-11eb-82c7-c56bd3b4c6fc.png)
+![Barbearia ](https://user-images.githubusercontent.com/79537802/118575916-dfd43500-b75d-11eb-941d-fd5827ab6c2c.png)
 
 ## Wireframes
 
