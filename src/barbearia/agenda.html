@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style-app.css">
+
+    <title>Tela de agendamento</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="agenda.html">Na<strong>Régua</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="agenda.html">Agendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="page-top">
+        <h1 class="page_title">Agenda</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Escolha um serviço</p>
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Lista de serviços</option>
+                    <option value="1">Corte de cabelo</option>
+                    <option value="2">Barba</option>
+                    <option value="3">Hidratação</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Escolha um barbeiro</p>
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Lista de barbeiros</option>
+                    <option value="1">Barbeiro 1</option>
+                    <option value="2">Barbeiro 2</option>
+                    <option value="3">Barbeiro 3</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Escolha uma data</p>
+            </div>
+            <div class="col">
+                <input class="form-control" type="date">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Escolha um horário</p>
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Lista de horários</option>
+                    <option value="1">08:00</option>
+                    <option value="2">08:30</option>
+                    <option value="3">09:00</option>
+                    <option value="1">09:30</option>
+                    <option value="2">10:00</option>
+                    <option value="3">10:30</option>
+                    <option value="1">11:00</option>
+                    <option value="2">11:30</option>
+                    <option value="3">13:00</option>
+                    <option value="1">13:30</option>
+                    <option value="2">14:00</option>
+                    <option value="3">14:30</option>
+                    <option value="2">15:00</option>
+                    <option value="3">15:30</option>
+                    <option value="1">16:00</option>
+                    <option value="2">16:30</option>
+                    <option value="3">17:00</option>
+                    <option value="1">17:30</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="center-area">
+            <button type="button" class="btn btn-success btn-lg">Confirmar</button>
+        </div>
+
+        <div class="center-area">
+            <h2>Histórico</h2>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Serviço</th>
+                    <th scope="col">Barbeiro</th>
+                    <th scope="col">Avaliação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Atual</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#modal-delete">
+                            Cancelar
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="button" class="btn btn-info btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#modal-add">
+                            Avaliar
+                        </button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="button" class="btn btn-info btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#modal-add">
+                            Avaliar
+                        </button></td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="button" class="btn btn-info btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#modal-add">
+                            Avaliar
+                        </button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal" tabindex="-1" id="modal-add">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Avaliação</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Ótimo
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Bom
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Regular
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Ruim
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" id="modal-delete">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Deseja cancelar o agendamento?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
+                        <button type="button" class="btn btn-primary">Não</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

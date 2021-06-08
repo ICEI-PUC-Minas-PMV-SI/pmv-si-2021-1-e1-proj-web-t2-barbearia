@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(36, 36, 36);
+}
+
+.login_container {    
+    min-height: 450px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 32px;    
+    align-items: center;
+    background: white;
+}
+
+.login_title {
+    font-weight: normal;
+    margin-bottom: 32px;
+    color: rgb(36, 36, 36);
+}
+
+.login_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.login_input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.login_input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background: #c0c0c0;
+}
+
+.login_input:focus + .login_input-border {
+    background: rgb(36, 36, 36);
+    transition: .3s ease-in-out;
+}
+
+.login_submit {
+    height: 48px;
+    width: 100%;
+    margin: 32px 0px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    border-style: solid;
+    border-color: rgb(36, 36, 36);    
+    background: white;
+    cursor: pointer;
+}
+
+.login_submit:hover {
+    color: white;
+    background: rgb(36, 36, 36);
+    transition: .3s ease-in-out;
+}
+
+.login_hiperlink {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.login_hiperlink:hover {
+    color: #7FB069;
+    transition: .3s ease-in-out;
+}
+
+.menu {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_container {    
+    min-height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 8px;   
+    padding: 16px;
+    align-items: center;
+    background: white;
+}
+
+.menu_logo {
+    font-weight: normal;
+    margin-bottom: 32px;
+    color: rgb(36, 36, 36);
+}
+
+.menu_option {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.menu_button {
+    height: 48px;
+    width: 100%;
+    margin: 16px 0px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    border-color: rgb(36, 36, 36);    
+    background: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.menu_button:hover {
+    color: rgb(36, 36, 36);
+    background-color: white;
+    transition: .3s ease-in-out;
+}
+
+.menu_sair {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+.menu_sair:hover {
+    color: #7FB069;
+    transition: .3s ease-in-out;
+}
