@@ -1,22 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BOOTSTRAP CSS-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style-app.css">
+
+    <!--CSS PROPRIO-->
+
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Equipe</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="agenda.html">Na<strong>Régua</strong></a>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="inicio.html">
+                <img src="./images/barba.png" alt="logo" height="42">
+            </a>
+            <a class="navbar-brand" href="inicio.html">Na<b>Régua</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="agenda.html">Agendar</a>
+                        <a class="nav-link" aria-current="page" href="inicio.html">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="servicos.html">Serviços</a>
@@ -32,147 +43,113 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="equipe.html">Equipe</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Sair</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="page-top">
-        <h1 class="page_title">Equipe</h1>
-    </div>
-    <div class="container">
-        <div class="edit-menu">
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-add">
-                Adicionar
-            </button>
-        </div>
-    </div>
+    <!--Conteudo-->
 
-    <div class="container">
+    <div class="container mt-5">
+
+        <!--Titulo-->
+
         <div class="row">
-
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/delfina-pan-wJoB8D3hnzc-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button>
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/imagem2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button>
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/imagem_1_1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button>
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button>
-
-                    </div>
-                </div>
+            <div class="col-12 text-center">
+                <h2>Equipe</h2>
+                <h5>Conheça nosso time!</h5>
             </div>
         </div>
+
+        <!--Botão de adicionar-->
+
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <a onclick="getTeam(0)" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#team-modal">
+                    Adicionar
+                </a>
+            </div>
+        </div>
+
+        <!--Tabela-->
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th width=5%>ID</th>
+                            <th width=25%>Nome</th>
+                            <th width=50%>Descrição</th>
+                            <th width=20%></th>
+                        </tr>
+                    </thead>
+                    <tbody id="team-list">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 
-    <div class="modal" tabindex="-1" id="modal-add">
-        <div class="modal-dialog">
+    <!--Modal para capturar dados do formulário de equipe-->
+
+    <div class="modal" id="team-modal" tabindex="-1">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Adicionar barbeiro</h5>
+                    <h5 class="modal-title">Equipe <span id="edit-team-id"></span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comentário</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                            placeholder="Digite seu comentário" rows="3"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="formFile" class="form-label">Adicione uma foto</label>
-                        <input class="form-control" type="file" id="formFile">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Adicionar</button>
+                    <form id="team-form" method="post" action="">
+                        <div class="form-group">
+                            <label for="team-id" class="col-form-label">ID:</label>
+                            <input type="number" class="form-control" id="team-id" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="team-name" class="col-form-label">Nome do colaborador:</label>
+                            <input type="text" class="form-control" id="team-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="team-description" class="col-form-label">Descrição:</label>
+                            <input type="text" class="form-control" id="team-description" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal" tabindex="-1" id="modal-edit">
+    <!--Modal para excluir colaboradores cadastrados-->
+
+    <div class="modal" id="delete-modal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Editar barbeiro</h5>
+                    <h5 class="modal-title">Atenção!</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Comentário</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                            placeholder="Digite seu comentário" rows="3"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="formFile" class="form-label">Adicione uma foto</label>
-                        <input class="form-control" type="file" id="formFile">
-                    </div>
+                    Você deseja excluir este colaborador <span id="id-team"></span>?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                    <button type="button" class="btn btn-primary" id="delete-btn">Sim</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal" tabindex="-1" id="modal-delete">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Deseja excluir barbeiro?</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
-                    <button type="button" class="btn btn-primary">Não</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--Scripts-->
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts/team.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>

@@ -1,0 +1,45 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "nome": "Corte",
+      "valor": 20
+    },
+    {
+      "id": 2,
+      "nome": "Barba",
+      "valor": 15
+    },
+    {
+      "id": "3",
+      "nome": "Hidratação",
+      "valor": "35"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "nome": "Barbeiro 1",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla auctor dolor vitae varius. Ut blandit fringilla libero sed commodo. Etiam a sem non tellus efficitur sodales quis vel diam. Fusce gravida porta hendrerit."
+    },
+    {
+      "id": 2,
+      "nome": "Barbeiro 2",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla auctor dolor vitae varius. Ut blandit fringilla libero sed commodo. Etiam a sem non tellus efficitur sodales quis vel diam. Fusce gravida porta hendrerit."
+    },
+    {
+      "id": 3,
+      "nome": "Barbeiro 3",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla auctor dolor vitae varius. Ut blandit fringilla libero sed commodo. Etiam a sem non tellus efficitur sodales quis vel diam. Fusce gravida porta hendrerit."
+    }
+  ],
+  "reserve": [
+    {
+      "id": "1",
+      "data": "2021-06-16",
+      "horario": "08:00",
+      "barbeiro": "Barbeiro 1",
+      "servico": "Corte"
+    }
+  ]
+}

@@ -1,22 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BOOTSTRAP CSS-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style-app.css">
 
-    <title>Tela de serviços</title>
+    <!--CSS PROPRIO-->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Serviços</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="agenda.html">Na<strong>Régua</strong></a>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="inicio.html">
+                <img src="./images/barba.png" alt="logo" height="42">
+            </a>
+            <a class="navbar-brand" href="inicio.html">Na<b>Régua</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="agenda.html">Agendar</a>
+                        <a class="nav-link" aria-current="page" href="inicio.html">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="servicos.html">Serviços</a>
@@ -32,139 +43,113 @@
                     <li class="nav-item">
                         <a class="nav-link" href="equipe.html">Equipe</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Sair</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="page-top">
-        <h1 class="page_title">Serviços</h1>
-    </div>
+    <!--Conteudo-->
 
-    <div class="container">
-        <div class="edit-menu">
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-add">
-                Adicionar
-            </button>
+    <div class="container mt-5">
+
+        <!--Titulo-->
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Serviços</h2>
+                <h5>Conheça nossas soluções</h5>
+            </div>
         </div>
+
+        <!--Botão de adicionar-->
+
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <a onclick="getService(0)" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#service-modal">
+                    Adicionar
+                </a>
+            </div>
+        </div>
+
+        <!--Tabela-->
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome do serviço</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="service-list">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 
-    <div class="container">
+    <!--Modal para capiturar dados do formulário de serviços-->
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Serviço</th>
-                    <th scope="col">Preço</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Corte de cabelo</td>
-                    <td>R$ 15,00</td>
-                    <td><button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button></td>
-                    <td><button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button></td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Barba</td>
-                    <td>R$ 10,00</td>
-                    <td><button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button></td>
-                    <td><button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button></td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Hidratação</td>
-                    <td>R$ 30,00</td>
-                    <td><button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#modal-edit">Editar</button></td>
-                    <td><button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#modal-delete">Excluir</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="modal" tabindex="-1" id="modal-add">
-        <div class="modal-dialog">
+    <div class="modal" id="service-modal" tabindex="-1">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Adicionar serviço</h5>
+                    <h5 class="modal-title">Serviço <span id="edit-serv-id"></span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nome do serviço</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Digite o nome do serviço">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Valor do serviço</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Digite o valor do serviço">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Adicionar</button>
+                    <form id="service-form" method="post" action="">
+                        <div class="form-group">
+                            <label for="service-id" class="col-form-label">ID:</label>
+                            <input type="number" class="form-control" id="service-id" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-name" class="col-form-label">Nome do serviço:</label>
+                            <input type="text" class="form-control" id="service-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-price" class="col-form-label">Valor:</label>
+                            <input type="number" step="0.01" class="form-control" id="service-price" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal" tabindex="-1" id="modal-edit">
+    <!--Modal para excluir serviços cadastrados-->
+
+    <div class="modal" id="delete-modal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Editar Serviço</h5>
+                    <h5 class="modal-title">Atenção!</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nome do serviço</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Digite o nome do serviço">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Valor do serviço</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Digite o valor do serviço">
-                    </div>
+                    Você deseja excluir este serviço <span id="id-serv"></span>?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                    <button type="button" class="btn btn-primary" id="delete-btn">Sim</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal" tabindex="-1" id="modal-delete">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Deseja excluir este serviço?</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-               
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sim</button>
-                    <button type="button" class="btn btn-primary">Não</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--Scripts-->
 
-
-
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts/service.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
