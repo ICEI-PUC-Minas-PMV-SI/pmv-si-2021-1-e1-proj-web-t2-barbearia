@@ -1,7 +1,7 @@
 // URL DA API DE DADOS
 URL = 'http://localhost:3000/team'
-//=================================================================================================
-// GET - Recupera todos os colaboradores e adiciona na tabela
+    //=================================================================================================
+    // GET - Recupera todos os colaboradores e adiciona na tabela
 
 const teamList = document.getElementById('team-list');
 
@@ -38,16 +38,16 @@ const teamDelete = document.getElementById('delete-btn');
 
 teamDelete.addEventListener('click', (e) => {
 
-    let id = $('#id-team').text();
+        let id = $('#id-team').text();
 
-    fetch(`${URL}/${id}`, {
-        method: 'DELETE',
+        fetch(`${URL}/${id}`, {
+                method: 'DELETE',
+            })
+            .then(res => res.json())
+            .then(() => location.reload());
+
     })
-        .then(res => res.json())
-        .then(() => location.reload());
-
-})
-//=================================================================================================
+    //=================================================================================================
 
 // PROCEDIMENTO PARA RECUPERAR OS DADOS DE UM COLABORADOR NA API
 function getTeam(id) {
@@ -78,37 +78,38 @@ const teamForm = document.getElementById('team-form');
 
 teamForm.addEventListener('submit', (e) => {
 
-    // RECUPERA O ID DO PRODUTO
-    let id = parseInt($('#edit-team-id').text());
+        // RECUPERA O ID DO PRODUTO
+        let id = parseInt($('#edit-team-id').text());
 
-    // RECUPERA OS DADOS DO PRODUTO
-    const team = JSON.stringify({
-        id: document.getElementById('team-id').value,
-        nome: document.getElementById('team-name').value,
-        descricao: document.getElementById('team-description').value,
+        // RECUPERA OS DADOS DO PRODUTO
+        const team = JSON.stringify({
+            id: document.getElementById('team-id').value,
+            nome: document.getElementById('team-name').value,
+            descricao: document.getElementById('team-description').value,
+        })
+
+        if (id >= 0) {
+            fetch(`${URL}/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Content-Type': 'application/json'
+                    },
+                    body: team
+                })
+                .then(res => res.json())
+                .then(() => location.reload());
+        } else {
+            fetch(URL, {
+                    method: 'POST',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Content-Type': 'application/json'
+                    },
+                    body: team
+                })
+                .then(res => res.json())
+                .then(() => location.reload());
+        }
     })
-
-    if (id >= 0) {
-        fetch(`${URL}/${id}`, {
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: team
-        })
-            .then(res => res.json())
-            .then(() => location.reload());
-    }
-    else {
-        fetch(URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: team
-        })
-            .then(res => res.json())
-            .then(() => location.reload());
-    }
-})
-//=================================================================================================
+    //=================================================================================================

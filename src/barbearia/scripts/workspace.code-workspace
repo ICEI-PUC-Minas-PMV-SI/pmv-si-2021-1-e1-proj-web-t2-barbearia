@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\videozinhos-master"
+		}
+	],
+	"settings": {
+		"editor.quickSuggestions": false,
+		"cSpell.enabled": false,
+		"editor.codeActionsOnSave": [
+			"source.formatDocument",
+			"source.fixAll.eslint"
+		],
+		"liveServer.settings.multiRootWorkspaceName": "Barbearia"
+	}
+}

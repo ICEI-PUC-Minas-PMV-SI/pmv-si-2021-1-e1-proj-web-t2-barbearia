@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Tela de login</title>
 </head>
+
 <body>
     <main class="login">
         <div class="login_container">
             <h1 class="login_title">Login</h1>
-            <form class="login_form">
-                <input type="email" class="login_input" placeholder="E-mail">
+            <form action="./inicio.html" class="login_form">
+                <input class="login_input" id="login-email" type="email" value="paulo@zip.com.br" placeholder="E-mail">
                 <span class="login_input-border"></span>
-                <input type="password" class="login_input" placeholder="Senha">
+                <input class="login_input" id="login-senha" type="password" value="paulao" placeholder="Senha">
                 <span class="login_input-border"></span>
-                <a href="inicio.html" class="login_submit">Entrar</a>
+                <button class="login_submit" type="submit">Entrar</button>
             </form>
             <a href="esqueci-minha-senha.html" class="login_hiperlink">Esqueci minha senha</a>
             <a href="ainda-nao-tenho-conta.html" class="login_hiperlink">Ainda não tenho conta</a>
-        </div>        
+        </div>
     </main>
+    <script src="./scripts/login.js"></script>
 </body>
+
 </html>

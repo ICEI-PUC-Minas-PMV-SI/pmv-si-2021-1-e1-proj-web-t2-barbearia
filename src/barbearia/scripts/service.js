@@ -1,11 +1,17 @@
 // URL DA API DE DADOS
 URL = 'http://localhost:3000/services'
-//=================================================================================================
-// GET - Recupera todos os serviços e adiciona na tabela
+    //=================================================================================================
+    // GET - Recupera todos os serviços e adiciona na tabela
 
 const serviceList = document.getElementById('service-list');
 
-fetch(URL)
+fetch(URL, {
+        method: 'GET',
+        headers: {
+            'Cache-Control': 'no-cache',
+            'Content-Type': 'application/json'
+        }
+    })
     .then(res => res.json())
     .then(services => {
         let lista_servicos = '';
@@ -38,16 +44,16 @@ const serviceDelete = document.getElementById('delete-btn');
 
 serviceDelete.addEventListener('click', (e) => {
 
-    let id = $('#id-serv').text();
+        let id = $('#id-serv').text();
 
-    fetch(`${URL}/${id}`, {
-        method: 'DELETE',
+        fetch(`${URL}/${id}`, {
+                method: 'DELETE',
+            })
+            .then(res => res.json())
+            .then(() => location.reload());
+
     })
-        .then(res => res.json())
-        .then(() => location.reload());
-
-})
-//=================================================================================================
+    //=================================================================================================
 
 // PROCEDIMENTO PARA RECUPERAR OS DADOS DE UM SERVIÇO NA API
 function getService(id) {
@@ -60,7 +66,15 @@ function getService(id) {
         $('#service-price').val("");
     } else {
         $('#edit-serv-id').text(id);
-        fetch(`${URL}/${id}`).then(res => res.json())
+        fetch(`${URL}/${id}`, {
+                method: 'GET',
+                headers: {
+                    'Cache-Control': 'no-cache',
+                    'Content-Type': 'application/json'
+                },
+                body: service
+            })
+            .then(res => res.json())
             .then(data => {
                 $("#service-id").prop("disabled", true);
                 $('#service-id').val(data.id);
@@ -78,38 +92,38 @@ const serviceForm = document.getElementById('service-form');
 
 serviceForm.addEventListener('submit', (e) => {
 
-    // RECUPERA O ID DO SERVIÇO
-    let id = parseInt($('#edit-serv-id').text());
+        // RECUPERA O ID DO SERVIÇO
+        let id = parseInt($('#edit-serv-id').text());
 
-    // RECUPERA OS DADOS DO SERVIÇO
-    const service = JSON.stringify({
-        id: document.getElementById('service-id').value,
-        nome: document.getElementById('service-name').value,
-        valor: document.getElementById('service-price').value,
+        // RECUPERA OS DADOS DO SERVIÇO
+        const service = JSON.stringify({
+            id: document.getElementById('service-id').value,
+            nome: document.getElementById('service-name').value,
+            valor: document.getElementById('service-price').value,
+        })
+
+        if (id >= 0) {
+            fetch(`${URL}/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Content-Type': 'application/json'
+                    },
+                    body: service
+                })
+                .then(res => res.json())
+                .then(() => location.reload());
+        } else {
+            fetch(URL, {
+                    method: 'POST',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Content-Type': 'application/json'
+                    },
+                    body: service
+                })
+                .then(res => res.json())
+                .then(() => location.reload());
+        }
     })
-
-    if (id >= 0) {
-        fetch(`${URL}/${id}`, {
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: service
-        })
-            .then(res => res.json())
-            .then(() => location.reload());
-    }
-    else {
-        fetch(URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: service
-        })
-            .then(res => res.json())
-            .then(() => location.reload());
-    }
-})
-//=================================================================================================
-
+    //=================================================================================================

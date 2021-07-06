@@ -31,15 +31,37 @@
       "id": 3,
       "nome": "Barbeiro 3",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla auctor dolor vitae varius. Ut blandit fringilla libero sed commodo. Etiam a sem non tellus efficitur sodales quis vel diam. Fusce gravida porta hendrerit."
+    },
+    {
+      "id": "4",
+      "nome": "Barbeiro 4",
+      "descricao": "Sobre o barbeiro e mais alguma coisa."
     }
   ],
   "reserve": [
     {
       "id": "1",
-      "data": "2021-06-16",
+      "data": "2021-07-01",
       "horario": "08:00",
       "barbeiro": "Barbeiro 1",
       "servico": "Corte"
     }
-  ]
+  ],
+  "login": [
+    {
+      "id": "jose@zip.com.br",
+      "nome": "José Maria",
+      "senha": "ze123"
+    },
+    {
+      "id": "paulo@zip.com.br",
+      "nome": "Paulo Silva",
+      "senha": "paulao"
+    },
+    {
+      "id": "rosa@zip.com.br",
+      "nome": "Rosa Graca",
+      "senha": "rosa123"
+    }
+      ]
 }
